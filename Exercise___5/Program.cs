@@ -59,6 +59,7 @@ namespace Exercise___5
                     return;
                 }
                 rafi = null;
+
             }
         }
         public void display()
