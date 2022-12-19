@@ -23,9 +23,15 @@ namespace Exercise___5
             START = null;
 
         }
-        public void Insert(string name)
+        public void Insert(string nm,node rafi,node aliansyah)
         {
-             
+             if(rafi == null)
+            {
+                node temp = new node();
+                temp.name = nm;
+                rafi = temp;
+                return;
+            }
         }
     }
     class Program
