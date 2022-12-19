@@ -41,6 +41,14 @@ namespace Exercise___5
              newelement.name = nm;
              tempnode.next = newelement;
         }
+        bool empty()
+        {
+            node rafi;
+            if (rafi == null)
+                return (true);
+            else
+                return (false);
+        }
         public void delete(node rafi)
         {
             if(rafi !=null)
@@ -52,6 +60,12 @@ namespace Exercise___5
                 }
                 rafi = null;
             }
+        }
+        public void display()
+        {
+            node temp;
+            if (empty())
+                Console.WriteLine("\nstack Empty");
         }
     }
     class Program
