@@ -69,7 +69,7 @@ namespace Exercise___5
                 Console.WriteLine("\nstack Empty");
             else
             {
-                for (temp =rafi;temp !=null;temp = temp.next )
+                for (temp = rafi;temp !=null;temp = temp.next )
                 {
                     Console.WriteLine(temp.next);
                 }
@@ -80,6 +80,13 @@ namespace Exercise___5
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
+            Console.WriteLine("\n***Stack Menu***");
+            Console.WriteLine("1. Push");
+            Console.WriteLine("2. Pop");
+            Console.WriteLine("3. Display");
+            Console.WriteLine("4. Exit");
+            Console.WriteLine("\nEnter Your Choice : ");
         }
     }
 }
