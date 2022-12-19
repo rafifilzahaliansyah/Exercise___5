@@ -64,12 +64,12 @@ namespace Exercise___5
         public void display()
         {
             node temp;
-            node rafi;
+            node aliansyah;
             if (empty())
                 Console.WriteLine("\nstack Empty");
             else
             {
-                for (temp = rafi;temp !=null;temp = temp.next )
+                for (temp = aliansyah;temp !=null;temp = temp.next )
                 {
                     Console.WriteLine(temp.next);
                 }
@@ -87,6 +87,7 @@ namespace Exercise___5
             Console.WriteLine("3. Display");
             Console.WriteLine("4. Exit");
             Console.WriteLine("\nEnter Your Choice : ");
+            char ch = Convert.ToChar(Console.ReadLine());
         }
     }
 }
