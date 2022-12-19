@@ -37,7 +37,21 @@ namespace Exercise___5
              {
                 tempnode = tempnode.next;
              }
-
+             node newelement = new node();
+             newelement.name = nm;
+             tempnode.next = newelement;
+        }
+        public void delete(node rafi)
+        {
+            if(rafi !=null)
+            {
+                if(rafi.next !=null)
+                {
+                    rafi = rafi.next;
+                    return;
+                }
+                rafi = null;
+            }
         }
     }
     class Program
