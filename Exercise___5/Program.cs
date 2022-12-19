@@ -18,6 +18,7 @@ namespace Exercise___5
         public list()
         {
             START = null;
+
         }
     }
     class Program
