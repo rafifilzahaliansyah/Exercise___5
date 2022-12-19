@@ -64,8 +64,16 @@ namespace Exercise___5
         public void display()
         {
             node temp;
+            node rafi;
             if (empty())
                 Console.WriteLine("\nstack Empty");
+            else
+            {
+                for (temp =rafi;temp !=null;temp = temp.next )
+                {
+                    Console.WriteLine(temp.next);
+                }
+            }
         }
     }
     class Program
