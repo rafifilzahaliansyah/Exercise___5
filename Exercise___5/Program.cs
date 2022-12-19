@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Exercise___5
 {
+    
     class node
     {
         public string name;
         public node next;
+        public node Rafi;
+        public node Aliansyah;
     }
 
     class list
@@ -19,6 +22,10 @@ namespace Exercise___5
         {
             START = null;
 
+        }
+        public void Insert(string name)
+        {
+             
         }
     }
     class Program
